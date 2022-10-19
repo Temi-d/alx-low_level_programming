@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _islower - checks for lowercase letters
+ * _islower - shows 1 if input is lowercase. Shows 0 for other cases
  *
- * @c - alphabets in ASCII code
+ * @c - The character in ASCII code
  *
- *  Return 1 - if c is lowercase
+ *  Return 1 - for lowercase
  *  Return 0 - if otherwise
  */
 
