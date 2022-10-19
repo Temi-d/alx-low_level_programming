@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - Prints the sign of a number 
+ * print_sign - Prints the sign of a number
  *
  * @n: The input number as an integer.
  *
@@ -20,7 +20,7 @@ int print_sign(int n)
 		_putchar(45);
 		return (-1);
 	}
-	else 
+	else
 	{
 		_putchar(48);
 		return (0);
