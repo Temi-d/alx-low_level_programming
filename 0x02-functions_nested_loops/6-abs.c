@@ -6,7 +6,7 @@
  *
  * @n: input number as an integer
  *
- * Rwturn: absolute integer
+ * Return: absolute integer
  */
 
 int _abs(int n)
