@@ -1,17 +1,21 @@
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
 
 /**
- * main - Entry point of function
+ * main - Prints the word _putchar
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	
-	const char *ch = "_putchar\n";
-	putchar(*ch);
+	int i;
+	char c[] = "_putchar";
 
+	for(i=0; i<9; i++)
+		{
+		_putchar(c[i]);
+		}
+		_putchar('\n');	
+	
 	return (0);
 }
