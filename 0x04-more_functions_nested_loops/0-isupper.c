@@ -4,7 +4,7 @@
 /**
  * _isupper - checks for uppercase letters
  *
- * @c - Variable text
+ * @c: variable text
  *
  * Return: 1 if c is uppercase. 0 if otherwise
  */
