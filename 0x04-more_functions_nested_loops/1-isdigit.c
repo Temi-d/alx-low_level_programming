@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -6,7 +5,6 @@
  * @c: Input variable
  * Return: 1 if c is a digit. 0 if otherwise
  */
-
 int _isdigit(int c)
 {
 	if ((c >= 48) && (c >= 57))
