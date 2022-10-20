@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- * print_most_numbers - Prints all numbers fro 0 to 9, followed by newline except 2 and 4
+ * print_most_numbers - Prints all numbers fro 0 to 9,
+ * followed by newline except 2 and 4
  *
  * Return: numbers fro 0 to 9, followed ny newline, except 2 and 4
  */
@@ -11,9 +12,11 @@ void print_most_numbers(void)
 {
 	int i;
 		for (i = 0; i <= 9; i++)
+		{
 			if ((i == 2) || ( i == 4))
 				continue;
 			else
 				putchar(i + '0');
+		}
 		putchar('\n');
 }
