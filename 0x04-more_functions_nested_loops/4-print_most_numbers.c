@@ -4,8 +4,6 @@
 /**
  * print_most_numbers - Prints all numbers fro 0 to 9,
  * followed by newline except 2 and 4
- *
- * Return: 0 to 9, followed ny newline, except 2 and 4
  */
 
 void print_most_numbers(void)
