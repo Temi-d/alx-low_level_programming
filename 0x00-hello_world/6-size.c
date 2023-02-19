@@ -6,6 +6,7 @@
  * float -floating point
  * long int - Long integer
  * long long int - Long long integer
+ * return: 0
  */
 
 int main(void)
@@ -16,12 +17,12 @@ int main(void)
 	long long int lli;
 	float f;
 
-	printf("The size of a char is: %lu bytes\n", (unsigned long)sizeof(c));
-	printf("The size of an int is: %lu bytes\n", (unsigned long)sizeof(i));
-       printf("The size of a long int is: %lu bytes\n", (unsigned long)sizeof(li));
-       printf("The size of a long long int is: %lu bytes\n", (unsigned long)sizeof(lli));
-       printf("The size of a float is: %lu bytes\n", (unsigned long)sizeof(f));
+	printf("Size of a char is: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of an int is: %lu byte(s)\n", (unsigned long)sizeof(i));
+        printf("Size of a long int is: %lu byte(s)\n", (unsigned long)sizeof(li));
+        printf("Size of a long long int is: %lu byte(s)\n", (unsigned long)sizeof(lli));
+        printf("Size of a float is: %lu byte(s)\n", (unsigned long)sizeof(f));
 
-       return (0);
+        return (0);
 }
 
