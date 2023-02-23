@@ -8,7 +8,8 @@
 
 int main(void)
 {
-	char lett;	
+	char lett;
+
 	for (lett = 'a'; lett <= 'z';  lett++)
 	{
 	if (lett != 'e' && lett != 'q')
