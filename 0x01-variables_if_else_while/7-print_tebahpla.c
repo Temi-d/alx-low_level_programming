@@ -10,7 +10,7 @@ int main(void)
 {
 	char bckwrds;
 
-	for (bckwrds = 'z'; bckwrds <= 'a'; bckwrds++)
+	for (bckwrds = 'z'; bckwrds >= 'a'; bckwrds--)
 	putchar(bckwrds);
 	putchar('\n');
 
