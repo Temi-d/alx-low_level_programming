@@ -2,7 +2,6 @@
 
 /**
  * print_alphabet_x1- - Prints alphabets in lowercase 10 times
- *
  * Return: void
  */
 
@@ -10,11 +9,11 @@ void print_alphabet_x10(void)
 {
 	int i = 0, c;
 
-	while(i < 10)
+	while (i < 10)
 	{
 		c = 'a';
 
-		while(c <= 'z')
+		while (c <= 'z')
 		{
 			_putchar(c);
 			c++;
